@@ -1,12 +1,10 @@
 /********************************
  * Yossi Silberhaft
- * 210028924
  * 89-750-04
  * Exercise 3
  * File: FileInfo.java
  ********************************/
 import java.util.ArrayList;
-
 
 public class FileInfo {
     private String clusterType;
@@ -20,14 +18,24 @@ public class FileInfo {
         this.pointsList = list;
     }
 
+    /***************************************************************
+     * This function will return the Algorithm type
+     ***************************************************************/
     public String getType(){
         return this.clusterType;
     }
 
+    /***************************************************************
+     * This function will return the number of clusters
+     ***************************************************************/
     public int getClusterAmount(){
         return this.numberOfClusters;
     }
 
+
+    /***************************************************************
+     * This function will return the List of Points
+     ***************************************************************/
     public ArrayList<Point> getPointList(){
         return this.pointsList;
     }

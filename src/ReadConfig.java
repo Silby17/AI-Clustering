@@ -1,12 +1,11 @@
-import java.io.*;
-import java.util.ArrayList;
 /********************************
  * Yossi Silberhaft
- * 210028924
  * 89-750-04
  * Exercise 3
  * File: ReadConfig.java
  ********************************/
+import java.io.*;
+import java.util.ArrayList;
 
 public class ReadConfig {
     //Constructor Method that will receive the input file name
